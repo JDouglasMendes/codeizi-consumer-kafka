@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Codeizi.Consumer.Kafka</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Douglas Mendes</Authors>
+    <Company>Codeizi.com.br</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JDouglasMendes/codeizi-consumer-kafka</RepositoryUrl>
+    <PackageReleaseNotes>Kafka message consumption simplifier.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>.</Description>
+    <PackageIcon>ico.png</PackageIcon>
+    <Copyright>Codeizi</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.5.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\ico.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
