@@ -41,7 +41,6 @@ jobs:
           # Format of the git tag, [*] gets replaced with actual version
           # TAG_FORMAT: v*
 
-
           # API key to authenticate with NuGet server
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
 
