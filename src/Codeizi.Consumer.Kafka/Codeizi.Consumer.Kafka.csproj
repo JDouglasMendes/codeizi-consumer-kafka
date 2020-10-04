@@ -8,7 +8,7 @@
     <Company>Codeizi.com.br</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/JDouglasMendes/codeizi-consumer-kafka</PackageProjectUrl>
     <RepositoryUrl>https://github.com/JDouglasMendes/codeizi-consumer-kafka</RepositoryUrl>
     <PackageReleaseNotes>Kafka message consumption simplifier.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
