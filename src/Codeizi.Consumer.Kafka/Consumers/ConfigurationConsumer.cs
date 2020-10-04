@@ -4,21 +4,12 @@ namespace Codeizi.Consumer.Kafka
 {
     public class ConfigurationConsumer
     {
-        public ConfigurationConsumer(
-            string groupId,
-            string server,
-            string topic,
-            Type typeConsumer)
-        {
-            GroupId = groupId;
-            Server = server;
-            Topic = topic;
-            TypeConsumer = typeConsumer;
-        }
+        public ConfigurationConsumer(string server)
+            => Server = server;
 
-        public string GroupId { get; }
         public string Server { get; }
-        public string Topic { get; }
-        public Type TypeConsumer { get; }
+        internal string GroupId { get; set; }
+        internal string Topic { get; set; }
+        internal Type TypeConsumer { get; set; }
     }
 }

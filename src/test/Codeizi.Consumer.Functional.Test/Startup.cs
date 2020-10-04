@@ -21,12 +21,7 @@ namespace Codeizi.Consumer.Functional.Test
         {
             services.AddControllers();
             services.AddInjectables(GetType().Assembly);
-            services.AddConsumerKafa(new ConfigurationConsumer
-                ("test-consumer-group",
-                "localhost:9092",
-                "Topic_Test",
-                typeof(ConsumerKafkaTopic))
-            );
+            services.AddConsumerKafa("localhost:9092");
         }
 
         public static void Configure(

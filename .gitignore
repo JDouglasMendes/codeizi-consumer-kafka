@@ -3,3 +3,4 @@ src/Codeizi.Consumer.Kafka/bin/*
 src/Codeizi.Consumer.Kafka/obj/*
 src/test/Codeizi.Consumer.Functional.Test/bin/*
 src/test/Codeizi.Consumer.Functional.Test/obj/*
+src/.vs/Codeizi/DesignTimeBuild/.dtbcache.v2
